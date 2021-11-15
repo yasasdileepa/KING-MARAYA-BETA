@@ -36,7 +36,7 @@ process.on('SIGINT', function () {
 
 process.on('SIGINT', function () {
     server.kill();
-    fs.unwatchFile('Queen-Alexa.js');
+    fs.unwatchFile('Maraya.js');
     console.log('Server started');
     process.exit();
 });
